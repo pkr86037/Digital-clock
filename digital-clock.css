@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+    border:border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    background-color: black;
+}
+.clock{
+    border:1px solid white;
+    padding: 40px;
+    border-radius: 20px;
+    background-color:grey;
+    
+    
+}
+#date{
+    font-size: 20px;
+    text-align: center;
+
+}
+.clock ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 80px;
+}
+
+@keyframes spinaAnimate{
+    from{transform:rotate(0deg);}
+    to{ transform: rotate(360deg);} 
+}
